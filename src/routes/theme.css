@@ -1,0 +1,134 @@
+/* Fonts */
+
+/* Charter - body text */
+@font-face {
+	font-family: 'Charter';
+	src: local('Charter'), url('/fonts/Charter/charter_regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Charter';
+	src: local('Charter Italic'), url('/fonts/Charter/charter_italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Charter';
+	src: local('Charter Bold'), url('/fonts/Charter/charter_bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Charter';
+	src: local('Charter Bold Italic'), url('/fonts/Charter/charter_bold_italic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Martian Mono - code */
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;500;600&display=swap');
+
+/* Color Palette */
+
+:root {
+	/* Light mode */
+	--color-bg: #ffffff;
+	--color-bg-secondary: #f6f8fa;
+	--color-bg-tertiary: #eaeef2;
+	
+	--color-text: #1f2328;
+	--color-text-secondary: #656d76;
+	--color-text-tertiary: #8b949e;
+	
+	--color-border: #d0d7de;
+	--color-border-muted: #eaeef2;
+	
+	--color-accent: #0969da;
+	--color-accent-hover: #0550ae;
+	
+	--color-redacted: #cf222e;
+	
+	/* Callouts */
+	--color-info: #0969da;
+	--color-info-bg: rgba(9, 105, 218, 0.1);
+	--color-warning: #9a6700;
+	--color-warning-bg: rgba(154, 103, 0, 0.1);
+	--color-danger: #cf222e;
+	--color-danger-bg: rgba(207, 34, 46, 0.1);
+	--color-success: #1a7f37;
+	--color-success-bg: rgba(26, 127, 55, 0.1);
+	--color-tip: #8250df;
+	--color-tip-bg: rgba(130, 80, 223, 0.1);
+	--color-question: #7c3aed;
+	--color-question-bg: rgba(124, 58, 237, 0.1);
+	--color-quote: #57606a;
+	--color-quote-bg: rgba(87, 96, 106, 0.1);
+
+	/* Code */
+	--color-code-bg: #f6f8fa;
+	--color-code-text: #1f2328;
+}
+
+:root.dark {
+	/* Dark mode */
+	--color-bg: #0d1117;
+	--color-bg-secondary: #161b22;
+	--color-bg-tertiary: #21262d;
+	
+	--color-text: #e6edf3;
+	--color-text-secondary: #8b949e;
+	--color-text-tertiary: #6e7681;
+	
+	--color-border: #30363d;
+	--color-border-muted: #21262d;
+	
+	--color-accent: #58a6ff;
+	--color-accent-hover: #79c0ff;
+	
+	--color-redacted: #f85149;
+	
+	/* Callouts - dark */
+	--color-info: #58a6ff;
+	--color-info-bg: rgba(56, 139, 253, 0.15);
+	--color-warning: #d29922;
+	--color-warning-bg: rgba(210, 153, 34, 0.15);
+	--color-danger: #f85149;
+	--color-danger-bg: rgba(248, 81, 73, 0.15);
+	--color-success: #3fb950;
+	--color-success-bg: rgba(63, 185, 80, 0.15);
+	--color-tip: #a371f7;
+	--color-tip-bg: rgba(163, 113, 247, 0.15);
+	--color-question: #a78bfa;
+	--color-question-bg: rgba(167, 139, 250, 0.15);
+	--color-quote: #8b949e;
+	--color-quote-bg: rgba(139, 148, 158, 0.15);
+
+	/* Code - dark */
+	--color-code-bg: #161b22;
+	--color-code-text: #e6edf3;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+	margin: 0;
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	transition: background-color 0.2s, color 0.2s;
+}
+
+/* MathJax dark mode */
+mjx-container svg > g {
+	fill: var(--color-text);
+	stroke: var(--color-text);
+}

@@ -1,0 +1,42 @@
+{
+	"knuth1997": {
+		"authors": ["Donald E. Knuth"],
+		"title": "The Art of Computer Programming, Vol. 1",
+		"year": 1997,
+		"publisher": "Addison-Wesley",
+		"edition": "3rd"
+	},
+	"turing1950": {
+		"authors": ["Alan M. Turing"],
+		"title": "Computing Machinery and Intelligence",
+		"year": 1950,
+		"journal": "Mind",
+		"volume": "59",
+		"issue": "236",
+		"pages": "433–460",
+		"doi": "10.1093/mind/LIX.236.433"
+	},
+	"shannon1948": {
+		"authors": ["Claude E. Shannon"],
+		"title": "A Mathematical Theory of Communication",
+		"year": 1948,
+		"journal": "Bell System Technical Journal",
+		"volume": "27",
+		"pages": "379–423",
+		"url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf"
+	},
+	"goodfellow2016": {
+		"authors": ["Ian Goodfellow", "Yoshua Bengio", "Aaron Courville"],
+		"title": "Deep Learning",
+		"year": 2016,
+		"publisher": "MIT Press",
+		"url": "https://www.deeplearningbook.org"
+	},
+	"vaswani2017": {
+		"authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N. Gomez", "Łukasz Kaiser", "Illia Polosukhin"],
+		"title": "Attention Is All You Need",
+		"year": 2017,
+		"booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+		"arxiv": "1706.03762"
+	}
+}
