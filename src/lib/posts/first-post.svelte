@@ -1,6 +1,6 @@
 <script lang="ts" module>
 	export const metadata = {
-		title: 'New Title',
+		title: 'New Title again',
 		date: '2026-01-20',
 		description: 'A short description shown in listings.',
 		tags: ['hello', 'welcome']
